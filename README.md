@@ -1,6 +1,7 @@
 # Text Editor
 
-This is a minimalist, line-oriented text editor implemented in C. It is designed to run in a Unix-like terminal environment. It provides basic text editing capabilities like raw mode terminal interaction, file I/O, scrolling, cursor movement, custom terminal handling, and syntax highlighting.
+- This is a minimalist, line-oriented text editor implemented in C. It is designed to run in a Unix-like terminal environment.
+- It provides basic text editing capabilities like raw mode terminal interaction, file I/O, scrolling, cursor movement, custom terminal handling, and syntax highlighting.
 
 
 ![Screenshot_Img](https://github.com/user-attachments/assets/b16c72f5-f046-466a-bd00-b96ac2fdd1ca)
@@ -35,6 +36,7 @@ This is a minimalist, line-oriented text editor implemented in C. It is designed
   ./install.sh
   ```
   This script will:
+
   Use `sudo` to install `gcc` and make if they are missing.
   
   Compile `text_editor.c` into the `kilo` executable.
